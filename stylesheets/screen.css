@@ -1493,6 +1493,7 @@ body {
 }
 #header .subtitle {
     color: #ccc;
+    font-size: 1rem;
 }
 #header #sub-nav {
     float: none;
@@ -1518,7 +1519,8 @@ body {
     display: block
 }
 #header #main-nav ul li a {
-    padding: 0px 0px
+    padding: 0px 0px;
+    font-size: 1rem;
 }
 .container {
     position: relative;
