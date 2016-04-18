@@ -1571,7 +1571,7 @@ body {
 .container .mid-col .mid-col-container #content article .title {
     margin-left: 0px;
     font-size: 2.5em;
-    font-weight: 500
+    font-weight: bold
 }
 .container .mid-col .mid-col-container #content article.single-post .title {
     text-align: center;
