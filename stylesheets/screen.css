@@ -1494,6 +1494,7 @@ body {
 #header .subtitle {
     color: #ccc;
     font-size: 1rem;
+    padding-top: 15px;
 }
 #header #sub-nav {
     float: none;
@@ -1516,7 +1517,8 @@ body {
 }
 #header #main-nav ul li {
     margin-left: 0px;
-    display: block
+    display: block;
+    line-height: 2.8;
 }
 #header #main-nav ul li a {
     padding: 0px 0px;
