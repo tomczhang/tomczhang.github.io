@@ -120,7 +120,8 @@ a {
 #header h1 {
     float: left;
     font-weight: 300;
-    font-size: 30px
+    font-size: 30px;
+    font-weight: bold;
 }
 @media screen and (max-width: 1040px) {
     #header h1 {
@@ -1480,7 +1481,7 @@ body {
     background: #3D4349;
     height: 100%;
     color: #333;
-    font-size: 11px
+    font-size: 13px
 }
 ::selection, ::-moz-selection, ::-webkit-selection {
     background-color: #2571B8;
