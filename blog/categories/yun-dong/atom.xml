@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: 运动 | My Octopress Blog]]></title>
+  <title><![CDATA[Category: 运动 | Tomc的小站]]></title>
   <link href="http://tomczhang.github.io/blog/categories/yun-dong/atom.xml" rel="self"/>
   <link href="http://tomczhang.github.io/"/>
-  <updated>2016-04-18T17:05:56+08:00</updated>
+  <updated>2016-04-18T17:46:14+08:00</updated>
   <id>http://tomczhang.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[张驰]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
