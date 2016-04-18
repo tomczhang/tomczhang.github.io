@@ -1481,7 +1481,7 @@ body {
     background: #3D4349;
     height: 100%;
     color: #333;
-    font-size: 13px
+    font-size: 0.9rem
 }
 ::selection, ::-moz-selection, ::-webkit-selection {
     background-color: #2571B8;
