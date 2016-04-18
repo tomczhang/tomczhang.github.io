@@ -1582,7 +1582,7 @@ body {
     line-height: 2em;
 }
 .container .mid-col .mid-col-container #content article .entry-content p {
-    margin-top: 10px
+    /*margin-top: 10px*/
 }
 .container .mid-col .mid-col-container #content article .entry-content .github-widget p {
     margin-top: 0px

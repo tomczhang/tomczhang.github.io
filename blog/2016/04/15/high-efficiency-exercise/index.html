@@ -9,7 +9,7 @@
 	<meta name="author" content="Your Name">
 
 	
-	<meta name="description" content="高效运动指南 前言：办事情讲究的是用最小代价、最快的时间来完成任务。而当这个事情是运动——还多半是减肥——让你流汗又流泪的时候，高效就成了最重要的关键字。当运动的强度不够时，我们取不到应得的效果，当运动的太多时，又会对身体造成损害，反而造成了负面效果。天啦噜，到底该如何判断多少运动才能起到最好的 &hellip;">
+	<meta name="description" content="高效运动指南 文章目录 前言：办事情讲究的是用最小代价、最快的时间来完成任务。而当这个事情是运动——还多半是减肥——让你流汗又流泪的时候，高效就成了最重要的关键字。当运动的强度不够时，我们取不到应得的效果，当运动的太多时，又会对身体造成损害，反而造成了负面效果。天啦噜， &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,6 +22,7 @@
 	<link rel="canonical" href="http://tomczhang.github.io/blog/2016/04/15/high-efficiency-exercise/">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/mycss.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
@@ -82,7 +83,18 @@
 			<div class="mid-col-container">
 				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 	<h1 class="title" itemprop="name">高效运动指南</h1>
-	<div class="entry-content" itemprop="articleBody"><p><strong>前言</strong>：办事情讲究的是用最小代价、最快的时间来完成任务。而当这个事情是运动——还多半是减肥——让你流汗又流泪的时候，高效就成了最重要的关键字。当运动的强度不够时，我们取不到应得的效果，当运动的太多时，又会对身体造成损害，反而造成了负面效果。天啦噜，到底该如何判断多少运动才能起到最好的“锻炼”和“减肥”效果？当下，关于运动的文章很多，但是很多都是错的；而健身教练往往只教你如何流汗，却不教甚至不懂如何运动最有效率。调整锻炼烈度和频率，使我们的锻炼最“事半功倍”，是我一直在思考的问题。最近有幸参加了上海市第一人民医院康复科陈文华主任举办的一个讲座，得到了一些运动上指点，所以才有了本文。</p>
+	<div class="entry-content" itemprop="articleBody">
+		<div id="toc-container">
+    <div id="toc">
+        <p>
+            <strong>文章目录</strong>
+        </p>
+        <ul id="toc-items">
+        </ul>
+    </div>
+</div>
+
+		<p><strong>前言</strong>：办事情讲究的是用最小代价、最快的时间来完成任务。而当这个事情是运动——还多半是减肥——让你流汗又流泪的时候，高效就成了最重要的关键字。当运动的强度不够时，我们取不到应得的效果，当运动的太多时，又会对身体造成损害，反而造成了负面效果。天啦噜，到底该如何判断多少运动才能起到最好的“锻炼”和“减肥”效果？当下，关于运动的文章很多，但是很多都是错的；而健身教练往往只教你如何流汗，却不教甚至不懂如何运动最有效率。调整锻炼烈度和频率，使我们的锻炼最“事半功倍”，是我一直在思考的问题。最近有幸参加了上海市第一人民医院康复科陈文华主任举办的一个讲座，得到了一些运动上指点，所以才有了本文。</p>
 
 <!--more-->
 
@@ -176,7 +188,15 @@
 <h1>3 总结</h1>
 
 <p>现代医学中最重要的是对自己生活的管理。关于高效健身，首先要有好的方法和方向，其次是有持之以恒的勇气。更重要的是，锻炼仅仅能提高自己的身体代谢，最重要的还是要控制自己的饮食，多粗粮蔬菜，少油少烟少盐。所谓三分靠练，七分靠吃，十分靠脸，大家还是多多努力吧！</p>
-</div>
+
+	</div>
+	<script>
+	    $(".entry-content").find("h1").each(function(i, item) {
+	        var tag = $(item).get(0).localName;
+	        $(item).attr("id", "wow" + i);
+	        $("#toc-items").append('<li><a class="new' + tag + ' anchor-link" onclick="return false;" href="#" link="#wow' + i + '">' + $(this).text() + '</a></li>');
+	    });
+	</script>
 
 </article>
 

@@ -1,0 +1,26 @@
+#toc-container, #toc {
+    float: right
+}
+#toc {
+    border: 1px solid #e2e2e2;
+    font-size: 14px;
+    margin: 0 0 15px 20px;
+    max-width: 260px;
+    min-width: 120px;
+    padding: 6px
+}
+#toc strong {
+    border-bottom: 1px solid #e2e2e2;
+    display: block
+}
+#toc p {
+    margin: 0;
+    padding: 0 4px
+}
+#toc ul {
+    margin: .5em .5em .5em 1.5em
+}
+#toc ul ul {
+    margin-top: 0;
+    margin-bottom: 0
+}
