@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://tomczhang.github.io/sitemap.xml 
